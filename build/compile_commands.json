@@ -1,7 +1,0 @@
-[
-{
-  "directory": "C:/Users/HUAV/Desktop/BM_Test/build",
-  "command": "D:\\software\\gcc\\make\\x86_64-12.2.0-release-win32-sjlj-rt_v10-rev0\\mingw64\\bin\\gcc.exe -g -o CMakeFiles\\test.dir\\main.c.obj -c C:\\Users\\HUAV\\Desktop\\BM_Test\\main.c",
-  "file": "C:\\Users\\HUAV\\Desktop\\BM_Test\\main.c"
-}
-]

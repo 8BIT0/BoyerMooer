@@ -5,7 +5,7 @@
 #include <stdlib.h>
 #include <string.h>
 
-static int8_t BadChar_T[256] = {-1};
+static int16_t BadChar_T[256] = {-1};
 
 static void BM_Build_BadCharTable(uint8_t *pattern, uint16_t pattern_size)
 {
@@ -37,8 +37,8 @@ static void BM_Builf_Suffix_Prefix(uint8_t *pattern, uint16_t pattern_size, int1
         while ((j >= 0) && (pattern[j] == pattern[pattern_size - k - 1]))
         {
             p_Suffix[k] = j;
-            --j;
-            ++k;
+            j--;
+            k++;
         }
 
         if (j == -1)
