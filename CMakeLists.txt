@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.24)
+project(test)
+SET(CMAKE_BUILD_TYPE Debug)
+SET(CMAKE_C_FLAGS"${CMAKE_C_FLAGS} -g -O0")
+add_executable(test main.c ${SOURCE})
